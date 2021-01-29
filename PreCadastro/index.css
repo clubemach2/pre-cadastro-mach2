@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("../Modules/estiloGeral.css");
+
+div#preCadastro h1 {
+  color: #16364b;
+  text-align: center;
+  margin-top: 80px;
+}
+
+@media (max-width: 800px) {
+  div#preCadastro h1 {
+    margin-top: 15px;
+  }
+}

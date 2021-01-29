@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("../Modules/estiloGeral.css");
+
+div#fundo {
+  height: 650px;
+}
+
+div#preCadastro {
+  height: 500px;
+  margin-top: 664px;
+}
+
+div#preCadastro div {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+
+div#preCadastro img {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 30px;
+}
+
+div#preCadastro h2 {
+  text-align: center;
+  font-weight: normal;
+  margin: 0;
+}
+
+@media (max-width: 800px) {
+  div#preCadastro {
+    margin-top: 605px;
+  }
+}
+
+@media (max-width: 570px) {
+  div#preCadastro h2 {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+div#imgFundo img {
+  max-width: 100%;
+}
+
+div#fundo {
+  background-color: #e6e6e6;
+  height: 1140px;
+  width: 100%;
+  margin-top: -5px;
+}
+
+div#contentPreCadastro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -10%
+}
+
+div#contentLogo {
+  background-color: #fff;
+  height: 159px;
+  width: 200px;
+  position: absolute;
+  z-index: 1;
+  border: 5px solid #16364b;
+  border-bottom: 0;
+  border-radius: 20px 20px 0px 0px;
+}
+
+div#contentLogo img {
+  height: 180px;
+  width: 150px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 10px auto;
+}
+
+div#preCadastro {
+  background-color: #fff;
+  height: 1000px;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  border: 5px solid #16364b;
+  border-radius: 20px;
+  margin-top: 1164px;
+}
+
+div#preCadastro h1 {
+  color: #16364b;
+}
+
+footer {
+  background-color: #16364b;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer h3 {
+  color: #fff;
+}
+
+
+@media (max-width: 800px) {
+  div#contentLogo {
+    height: 100px;
+    width: 150px;
+  }
+  div#contentLogo img {
+    height: 100px;
+    width: 80px;
+  }
+  div#preCadastro {
+    width: 90%;
+    margin-top: 1105px;
+  }
+  div#preCadastro h1 {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 570px) {
+  div#imgFundo img {
+    height: 250px;
+  }
+  div#contentPreCadastro {
+    margin-top: -15%
+  }
+}
